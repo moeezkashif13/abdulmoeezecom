@@ -1,0 +1,172 @@
+
+
+.containerOfThree{
+    width: 100%;
+
+display: flex;
+
+align-items: center;
+
+padding: 20px 0;
+
+}
+
+.imageInCheckout{
+    width: 15%;
+    position: relative;
+}
+
+.circle{
+    color: #fff;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    background-color: gray;
+    padding: 3px 10px;
+    border-radius: 50%;
+}
+
+.imageInCheckout img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+
+}
+
+.othersInCheckout{
+
+    
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 10px;
+    font-size: 1.2rem;
+
+}
+
+
+.bothPriceAndSizeFlex{
+    display: flex;
+    flex-direction: row;
+
+    
+}
+
+@media (max-width: 767.98px) {
+
+
+    .containerOfThree{
+
+        
+        width: 100%;
+    
+    display: flex;
+    
+    align-items: center;
+    
+    padding: 20px 0;
+    
+    }
+    
+    .imageInCheckout{
+        width: 15%;
+        position: relative;
+    }
+    
+    .circle{
+        color: #fff;
+        position: absolute;
+        right: -10px;
+        top: -10px;
+        background-color: gray;
+        padding: 3px 10px;
+        border-radius: 50%;
+    }
+    
+    .imageInCheckout img{
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+    
+    }
+    
+    .othersInCheckout{
+
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        padding: 0 0 0 10px;
+    }
+    
+    
+    .bothPriceAndSizeFlex{
+        display: flex;
+        flex-direction: row;
+
+    }
+    
+    #there{
+        margin-top: -9px !important;   
+    }
+
+
+}
+
+
+@media (max-width: 575.98px) {
+
+    .containerOfThree{
+
+        width: 100%;
+    
+    display: flex;
+    
+    align-items: center;
+    
+    padding: 20px 0;
+    
+    }
+    
+    .imageInCheckout{
+        width: 15%;
+        position: relative;
+    }
+    
+    .circle{
+        color: #fff;
+        position: absolute;
+        right: -10px;
+        top: -10px;
+        background-color: gray;
+        padding: 3px 10px;
+        border-radius: 50%;
+    }
+    
+    .imageInCheckout img{
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+    
+    }
+    
+    .othersInCheckout{
+
+        
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        padding: 0 0 0 10px;
+    }
+    
+    
+    .bothPriceAndSizeFlex{
+        display: flex;
+        flex-direction: row;
+
+    }
+    
+    #there{
+        margin-top: 0px !important;   
+    }
+
+}

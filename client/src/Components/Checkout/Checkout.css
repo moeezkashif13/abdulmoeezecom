@@ -1,0 +1,131 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.twoSidesFlex{
+
+  display: flex;
+  padding: 0 0px 0 0px;
+  font-family: 'Work Sans', sans-serif;
+  
+}
+
+
+
+.checkoutSection{
+/* background-color: blue; */
+width: 100%;
+}
+
+.checkoutHere{
+/* background-color: red; */
+font-size: 3rem;
+text-align: center;
+}
+
+
+.totalInCheckout{
+display: flex;
+/* background-color: red; */
+align-items: center;
+}
+
+.btn {
+width: 100%;
+/* margin-right: 3%; */
+font-family: 'Open Sans', sans-serif;
+font-size: 1.4rem;
+background-color: #132098;
+transition: all 0.3s ease;
+/* margin: 30px 0; */
+outline: none;
+border: none;
+padding: 10px 20px;
+
+color: #fff;
+
+}
+
+.btn:hover {
+background: #69B692;
+border-color: #69B692;
+cursor: pointer;
+}
+
+@media (max-width: 767.98px) {
+
+
+
+/*  */
+
+.twoSidesFlex{
+  
+  
+  display: flex;
+ 
+  font-family: 'Work Sans', sans-serif;
+  
+}
+
+
+.checkoutSection{
+/* background-color: blue; */
+width: 100%;
+}
+
+.checkoutHere{
+/* background-color: red; */
+font-size: 3rem;
+text-align: center;
+}
+
+
+.totalInCheckout{
+display: flex;
+/* background-color: red; */
+align-items: center;
+}
+
+
+/*  */
+
+}
+
+
+
+
+@media (max-width: 575.98px) {
+
+
+
+/*  */
+
+.twoSidesFlex{
+  
+  
+  display: flex;
+ 
+  font-family: 'Work Sans', sans-serif;
+  
+}
+
+
+.checkoutSection{
+/* background-color: blue; */
+width: 100%;
+}
+
+.checkoutHere{
+/* background-color: red; */
+font-size: 3rem;
+text-align: center;
+}
+
+
+.totalInCheckout{
+display: flex;
+/* background-color: red; */
+align-items: center;
+}
+
+
+
+}

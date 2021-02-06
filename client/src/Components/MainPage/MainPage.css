@@ -1,0 +1,564 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
+
+
+.mainPageSection{
+ background: #fff;
+
+ width: 100%;
+    height: 100vh;
+
+    display: flex;
+
+    padding: 30px 40px;
+    position: relative;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+
+.firstSide{
+
+    
+    width: 65%;
+    /* height: 100%; */
+    padding: 0 50px;
+    
+}
+
+.opac{
+    display: none;
+    opacity: 0;
+}
+
+
+.shoeimage{
+ height: 85%;
+
+ width: 100%; 
+    /* background-color: gray; */
+/*position: relative;
+left: 50%;
+transform: translateX(-50%);*/
+background-size: cover; 
+background-position: center center;
+}
+
+
+#trying{
+    
+    height: 100%;
+}
+
+.shoeotherimages{
+    /* background-color: pink; */
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+
+[data-scroll] {
+    transition: opacity 1s;
+  }
+  [data-scroll="in"] {
+    opacity: 1;
+  }
+  [data-scroll="out"] {
+    opacity: 0;
+  }
+  
+
+.shoeotherimages a{
+    /* background-color: red; */
+    width: 20%;
+    height: 80px;
+    margin: 0 20px;
+    background-image: url('https://cdn.shopify.com/s/files/1/1241/4530/products/AlphaBeat_Black_1024x1024@2x.jpg?v=1606432414');
+    background-size: cover;
+    background-position: center center;
+
+
+}
+
+
+.secondSide{
+    /* background-color: blue; */
+width: 35%;
+    height: 100%;
+
+    text-align: left;
+
+}
+
+.secondSide h1,h4{
+
+    font-weight: 400;
+
+}
+
+.description{
+    color: #69727b;
+    font-size: 1.7rem;
+
+    margin-top: 30px;
+
+}
+
+.availablecolors{
+    font-size: 1.7rem;
+}
+
+.shoescolorflex{
+    /* background-color: gray; */
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.shoescolorflex a{
+
+
+    /* background-color: purple; */
+    flex-basis: 20%;
+    height: 100px;
+margin: 0 10px;
+
+background-size: cover;
+background-position: center center;
+
+}
+
+.sizeflex{
+    /* background-color: aqua; */
+    display: flex;
+margin: 30px 0;
+
+
+}
+
+.sizeflex p,a{
+    font-size: 1.9rem;
+    display: inline-block;
+}
+
+.dropdown{
+/* background-color: red; */
+    height: 50px;
+    /* background-color: red; */
+    width: auto;
+margin-bottom: 30px;
+
+}
+
+/* .ui .fluid .selection .dropdown{
+
+
+
+
+} */
+
+.text {
+background-color: none;
+}
+
+
+.cartbutton{
+
+    background-color: rgba(19, 30, 151, 1);
+
+    outline: none;
+    border: none;
+
+    width: 100%;
+    /* padding: 12px 0; */
+padding: .375rem .75rem;
+line-height: 2;
+    font-size: 1.6rem;
+    border-radius: 5px;
+    font-weight: 700;
+    color: #fff;
+
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.cartbutton:hover{
+
+    background-color: rgba(105, 114, 123,0.8);
+cursor: pointer;
+}
+
+
+.whyDifferentSection{
+
+    /* background-color: red; */
+    padding: 0 40px;
+
+}
+
+.whyUs{
+font-weight: 600;
+text-align: left;
+font-size: 2rem;
+color: #132098;
+
+}
+
+.featuresFlex{
+    
+    display: flex;
+    padding: 30px 0;
+justify-content: center;
+}
+
+
+.featuresFlex .singleFeature{
+    /* background-color: blue; */
+    width: 14%;
+    /* height: 100px; */
+
+}
+
+.featuresFlex .singleFeature div{
+
+    width: 100%;
+    height: 160px;
+
+background-position: center center;
+    background-size: cover;
+
+    
+    
+
+}
+
+.featuresFlex .singleFeature p{
+    
+    color: #132098;
+    font-weight:700;
+    text-align: center;
+    }
+
+.recommended{
+    margin-left:10px;
+    text-align: center;
+    width: 25% !important;
+    padding: 0 !important;
+
+}
+
+@media (max-width: 767.98px) {
+
+    .mainPageSection{
+        /* background: #fff; */
+        /* background-color: rgba(211, 181, 11, 0.486); */
+           width: 100%;
+           height: 80vh;
+           display: flex;
+       
+           padding: 0px 0px;
+           position: relative;
+           font-family: 'Work Sans', sans-serif;
+       
+       }
+
+       .firstSide{
+
+        /* height: 100%; */
+        padding: 0 20px;
+        
+    }
+
+    .secondSide{
+        /* background-color: purple; */
+    width: 35%;
+        height: 100%;
+    
+        text-align: center;
+    padding-top: 20px;
+
+    }
+    
+    .secondSide h1,h4{
+    
+        font-weight: 400;
+        
+        /* padding-top: 20px; */
+    
+    }
+    
+    .description{
+
+        margin-top: 20px;
+    
+    }
+    
+    .shoescolorflex{
+        background-color: transparent;
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: flex-start;
+        /* height: 200px; */
+    }
+    
+    
+    .shoescolorflex a{
+    
+    
+        
+    width: 40%;
+    background-size: 200%;
+    background-repeat: no-repeat;
+
+    
+    }
+    
+
+  
+    
+    
+    .cartbutton{
+    
+
+        /* padding: 12px 0; */
+    padding: 0.3rem 0rem;
+        font-size: 1.2rem;
+        text-align: center;
+        margin-top: 10px;
+  
+    }
+    
+    
+    .whyDifferentSection{
+    
+        background-color: transparent;
+        padding: 0 0px;
+
+    
+    }
+    
+    .whyUs{
+    text-align: center;
+    }
+    
+    .featuresFlex{
+        
+        display: flex;
+        padding: 0px 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
+    
+    
+    .featuresFlex .singleFeature{
+        width: 30%;
+        /* height: 100px; */
+    
+    }
+    
+    .featuresFlex .singleFeature div{
+    
+        width: 100%;
+        height: 100px;
+    
+    background-position: center center;
+        background-size: 80%;
+    
+        
+        
+    
+    }
+    
+    .featuresFlex .singleFeature p{
+        
+        color: #132098;
+        font-weight:700;
+        text-align: center;
+        
+        font-size: 1.2rem;
+        }
+    
+
+
+
+
+}
+
+
+@media (max-width: 575.98px) {
+
+
+    .mainPageSection{
+        /* background: #fff; */
+        /* background-color: rgba(211, 181, 11, 0.486); */
+        background-color: transparent;
+           width: 100%;
+           height: auto;
+       
+           display: flex;
+           flex-direction: column;
+       
+           padding: 10px 10px;
+           position: relative;
+           font-family: 'Work Sans', sans-serif;
+       
+       }
+       
+       
+       .firstSide{
+           background-color: transparent;
+       
+           width: 100%;
+           height: 100%;
+           padding: 0 0px;
+           
+       }
+       #trying{
+           background-color: transparent;
+           /* height: 100%; */
+           /* width: 80%; */
+        height: 50vh;
+
+       }
+       
+       .secondSide{
+
+        
+           margin-top: -40px;
+       width: 100%;
+           height: 100%;
+       
+           text-align: left;
+       
+       }
+
+       .shoeimage{
+
+      
+        background-size: 80%;
+       background-repeat: no-repeat; 
+       background-position: center center;
+       }
+       
+
+    
+    .secondSide h1,h4{
+    
+        font-weight: 700;
+        background-color: transparent;
+        /* padding-top: 20px; */
+    
+    }
+    
+    .description{
+
+        margin-top: 15px;
+    
+    }
+    
+    .shoescolorflex{
+
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        height: auto;
+        
+    }
+    
+    
+    .shoescolorflex a{
+ 
+    width: 100%;
+    background-size: 125%;
+    background-repeat: no-repeat;
+
+    
+    }
+    
+
+  
+    
+    
+    .cartbutton{
+    
+
+        /* padding: 12px 0; */
+    padding: 0.3rem 0rem;
+        font-size: 1.2rem;
+  
+    }
+    
+    
+    .whyDifferentSection{
+    
+        padding: 0 0px;
+
+    
+    }
+    
+    .whyUs{
+    text-align: center;
+    }
+    
+    .featuresFlex{
+        /* background-color: orange; */
+        display: flex;
+        padding: 0px 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
+    
+    
+    .featuresFlex .singleFeature{
+        /* background-color: blue; */
+        width: 30%;
+        /* height: 100px; */
+    
+    }
+    
+    .featuresFlex .singleFeature div{
+    
+        width: 100%;
+        height: 100px;
+    
+    background-position: center center;
+        background-size: 80%;
+    
+        
+        
+    
+    }
+    
+    .featuresFlex .singleFeature p{
+        
+        color: #132098;
+        font-weight:700;
+        text-align: center;
+        
+        font-size: 1.2rem;
+        }
+    
+
+
+}
+
+
+
+
+/* 
+@media (max-width: 575.95px) and (min-width: 200px) {
+    #trying{
+        background-color: orange;
+        height: 100%;
+        background-size: 150%;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+       
+} */
